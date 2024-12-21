@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muzi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" media="all">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="left-nav">
+            <div class="music-logo">
+                <img src="assets/image/music.png" alt="Music Logo">
+            </div>
+            <div class="name">
+                <h2>muzi</h2>
+                <h5>music website</h5>
+            </div>
+        </div>
+        <div class="right-nav">
+            <div id="search-bar">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input id="search-input" placeholder="Search Music..." />
+            </div>
+            <div class="profile-picture">
+                <img src="assets/image/myphoto.png" alt="Profile Picture">
+            </div>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <main class="section">
+        <div class="left-section">
+            <div class="carousel">
+                <div class="image box img1"></div>
+                <div class="image box img2"></div>
+                <div class="image box img3"></div>
+            </div>
+            <div class="latest-releases">
+                <header>
+                    <h3 class="font">Latest Releases</h3>
+                </header>
+                <div class="latest-release-content" id="latest-releases-content">
+                    <p>Loading latest releases...</p>
+                </div>
+            </div>
+            <div class="popular-artists">
+                <header>
+                    <h3 class="font">Popular Artists</h3>
+                </header>
+                <div class="artist-showcase" id="artist-showcase">
+                    <p>Loading popular artists...</p>
+                </div>
+            </div>
+            <div class="language english">
+                <h3 class="language-heading">LATEST ENGLISH</h3>
+                <div class="language-content" id="latest-english-content">
+                    <p>Loading latest English songs...</p>
+                </div>
+            </div>
+            <div class="language hindi">
+                <h3 class="language-heading">LATEST HINDI</h3>
+                <div class="language-content" id="latest-hindi-content">
+                    <p>Loading latest Hindi songs...</p>
+                </div>
+            </div>
+        </div>
+        <aside class="aside-section">
+            <div class="heading">
+                <h1>Popular Music</h1>
+                <div class="queue-options">
+                    <h4>Queue</h4>
+                    <div id="playlist-content">
+                        <p>Loading popular music...</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Music Player Footer</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
